@@ -8,6 +8,7 @@ A machine learning project aimed at aiding early diagnosis of lung diseases usin
 - [Usage](#usage)
 - [Dataset Information](#dataset-information)
 - [DINOv2 Model Information](#dinov2-model-information)
+- [VGG16 Model Information](#vgg16-model-information)
 - [Running on Kaggle](#running-on-kaggle)
 - [Development](#development)
 - [Contributing](#contributing)
@@ -62,6 +63,14 @@ A lot of research happens every day to use deep learning for the betterment of h
 DINOv2, developed by Meta AI, is an advanced deep learning model designed for self-supervised learning. This project uses DINOv2 models to perform efficient image analysis and classification for the anonymized lung disease datasets.
 
 To learn more about DINOv2 models, you can refer to Meta AI's official documentation [here](https://ai.meta.com/dinov2).
+
+## VGG16 Model Information
+
+The VGG16 model, developed by the Visual Graphics Group at the University of Oxford, is a deep convolutional neural network known for its effectiveness in image recognition tasks. This project adapts VGG16 for a specific application in classifying lung disease from image data.
+
+The original VGG16 model is renowned for its simplicity and depth, utilizing multiple 3x3 convolutional layers stacked on top of each other in increasing depth. Our implementation leverages a pretrained version of VGG16, fine-tuning it for the specific task of lung disease classification from chest radiographs.
+
+To learn more about VGG models, you can refer to Pytorch's official documentation [here](https://pytorch.org/vision/main/models/generated/torchvision.models.vgg16.html#torchvision.models.vgg16).
 
 ## Running on Kaggle
 
